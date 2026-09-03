@@ -1,0 +1,19 @@
+tests/ut/ops/test_moe_comm_method.py
+  s_7d6d4e99c432e7::t_d9884cb2aecb0d 260-262,275-277
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.0",
+  "base_commit_sha": "bed505d00e1258582c369048b2f91eb6c33bc68d",
+  "prompts": {},
+  "sessions": {
+    "s_7d6d4e99c432e7": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a05c12-2713-7121-9b92-b9fd5ebdfae1",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "happy <sxh139726845@163.com>"
+    }
+  }
+}
