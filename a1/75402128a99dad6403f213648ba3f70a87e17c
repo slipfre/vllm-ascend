@@ -1,0 +1,40 @@
+tests/ut/ops/test_moe_mlp.py
+  s_7d6d4e99c432e7::t_c00d1a1d170c29 247,283-305
+  s_7d6d4e99c432e7::t_0f29bbf7dbc783 229,276
+  s_7d6d4e99c432e7::t_3215a1f8d6c146 327,340
+  s_7d6d4e99c432e7::t_9b0ec795fa34d7 306
+tests/ut/ops/test_fused_moe.py
+  s_7d6d4e99c432e7::t_c4c2374486ceb1 65
+vllm_ascend/ops/fused_moe/moe_comm_method.py
+  s_7d6d4e99c432e7::t_58d4b403fe09f7 164-167
+tests/e2e/nightly/single_node/ops/singlecard_ops/test_fused_moe.py
+  s_7d6d4e99c432e7::t_58d4b403fe09f7 254
+vllm_ascend/ops/fused_moe/moe_mlp.py
+  s_7d6d4e99c432e7::t_58d4b403fe09f7 17,220,670,754,756,780-783
+  s_7d6d4e99c432e7::t_0f29bbf7dbc783 669,755,833
+vllm_ascend/ops/fused_moe/dataclass/fused_experts.py
+  s_7d6d4e99c432e7::t_0f29bbf7dbc783 60,99,127
+vllm_ascend/ops/fused_moe/dataclass/moe_mlp.py
+  s_7d6d4e99c432e7::t_0f29bbf7dbc783 51,107
+vllm_ascend/ops/fused_moe/routed_experts.py
+  s_7d6d4e99c432e7::t_0f29bbf7dbc783 174
+  s_7d6d4e99c432e7::t_c77bcc35b4a153 49-51
+tests/ut/ops/test_moe_comm_method.py
+  s_7d6d4e99c432e7::t_0f29bbf7dbc783 260-262,275-277
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.0",
+  "base_commit_sha": "a175402128a99dad6403f213648ba3f70a87e17c",
+  "prompts": {},
+  "sessions": {
+    "s_7d6d4e99c432e7": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a05c12-2713-7121-9b92-b9fd5ebdfae1",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "happy <sxh139726845@163.com>"
+    }
+  }
+}
