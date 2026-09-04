@@ -1,0 +1,28 @@
+vllm_ascend/ops/fused_moe/moe_comm_method.py
+  s_140645aa4339f3::t_8b02f361660103 164
+tests/ut/ops/test_fused_moe.py
+  s_140645aa4339f3::t_8b02f361660103 1152,1156,1199,1218,1221,1246,1266,1269,1293
+vllm_ascend/ops/fused_moe/routed_experts.py
+  s_140645aa4339f3::t_f23e9dafd95cf3 49
+vllm_ascend/ops/fused_moe/moe_mlp.py
+  s_140645aa4339f3::t_e9530d75a44ff5 753
+  s_140645aa4339f3::t_8b02f361660103 777
+vllm_ascend/ops/fused_moe/shared_experts.py
+  s_140645aa4339f3::t_8b02f361660103 100-101,130-131,399,402
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.0",
+  "base_commit_sha": "85027ccbb38ee819489df5fd380e41d04a25c6e3",
+  "prompts": {},
+  "sessions": {
+    "s_140645aa4339f3": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a06b86-27b4-7891-b5e7-b8dc9bfef363",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "happy <sxh139726845@163.com>"
+    }
+  }
+}
