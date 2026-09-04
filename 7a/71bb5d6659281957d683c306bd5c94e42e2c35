@@ -1,0 +1,19 @@
+tests/ut/ops/test_moe_mlp.py
+  s_140645aa4339f3::t_40150eb53afd28 221,267
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.0",
+  "base_commit_sha": "7a71bb5d6659281957d683c306bd5c94e42e2c35",
+  "prompts": {},
+  "sessions": {
+    "s_140645aa4339f3": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a06b86-27b4-7891-b5e7-b8dc9bfef363",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "happy <sxh139726845@163.com>"
+    }
+  }
+}
