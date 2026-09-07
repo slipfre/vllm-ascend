@@ -1,0 +1,23 @@
+tests/ut/_310p/fused_moe/test_shared_fused_moe_310.py
+  s_140645aa4339f3::t_0735e224051200 214,216,218
+tests/ut/ops/test_fused_moe.py
+  s_140645aa4339f3::t_9b00d1f24be15d 868,870,872,1172,1176,1186,1217-1219,1231,1238,1241,1245,1247-1249,1265-1272,1286,1289,1312-1313
+vllm_ascend/ops/fused_moe/shared_experts.py
+  s_140645aa4339f3::t_2e67eb6f9d2139 99,130-131,158-161,396,399-402,404
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.2",
+  "base_commit_sha": "6985872e97d37fae3f8e889307f7355f777d360b",
+  "prompts": {},
+  "sessions": {
+    "s_140645aa4339f3": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a06b86-27b4-7891-b5e7-b8dc9bfef363",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "happy <sxh139726845@163.com>"
+    }
+  }
+}
