@@ -1,5 +1,9 @@
 # vLLM Ascend Benchmarks
 
+## KVPool SLO testing
+
+See [KVPool SLO testing](kvpool/README.md) to search for the highest concurrency satisfying TTFT/TPOT limits with prefix-cache workloads and per-trial cache metrics.
+
 ## Introduction
 
 This document outlines the benchmarking methodology for vllm-ascend, aimed at evaluating the performance under a variety of workloads. The primary goal is to help developers assess whether their pull requests improve or degrade vllm-ascend's performance.
