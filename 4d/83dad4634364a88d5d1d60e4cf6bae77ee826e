@@ -1,0 +1,22 @@
+vllm_ascend/worker/v2/attn_utils.py
+  s_02bd44726fe990::t_3023e3c47a857f 1196-1198
+tests/ut/worker/test_glm5next_pooled_cache.py
+  s_02bd44726fe990::t_3023e3c47a857f 22-24,252-275
+  s_02bd44726fe990::t_cfac77e2353c1b 276-277
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "4d83dad4634364a88d5d1d60e4cf6bae77ee826e",
+  "prompts": {},
+  "sessions": {
+    "s_02bd44726fe990": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1770f-1537-7fc3-ad09-67298d567de0",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "shenxionghao <sxh139726845@163.com>"
+    }
+  }
+}
