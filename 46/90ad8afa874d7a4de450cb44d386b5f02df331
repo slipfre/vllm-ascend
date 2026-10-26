@@ -1,0 +1,19 @@
+release_notes/fragments/19880.yaml
+  s_02bd44726fe990::t_85851a21e6fd9d 1-4
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "4690ad8afa874d7a4de450cb44d386b5f02df331",
+  "prompts": {},
+  "sessions": {
+    "s_02bd44726fe990": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1770f-1537-7fc3-ad09-67298d567de0",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "shenxionghao <sxh139726845@163.com>"
+    }
+  }
+}
