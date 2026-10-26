@@ -1,0 +1,30 @@
+tests/ut/ops/test_moe_mlp.py
+  s_7d6d4e99c432e7::t_4adb4d1549df38 206-208,221,223,232-233
+  s_7d6d4e99c432e7::t_9a0ead01bf17e7 240-280
+vllm_ascend/ops/fused_moe/moe_mlp.py
+  s_7d6d4e99c432e7::t_f15d2bf7a21d86 752,773
+  s_7d6d4e99c432e7::t_480bf18408afc0 753
+vllm_ascend/ops/fused_moe/shared_experts.py
+  s_7d6d4e99c432e7::t_f15d2bf7a21d86 100-101,130-132,159-162,397,399-403,405
+tests/ut/ops/test_fused_moe.py
+  s_7d6d4e99c432e7::t_4adb4d1549df38 849,851,853,1152-1153,1156-1157,1167,1198-1200,1218-1219,1221-1222,1226,1228-1230,1246-1253,1266-1267,1269-1270,1293-1294
+  s_7d6d4e99c432e7::t_480bf18408afc0 1212
+tests/ut/_310p/fused_moe/test_shared_fused_moe_310.py
+  s_7d6d4e99c432e7::t_4adb4d1549df38 214,216,218
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.0",
+  "base_commit_sha": "d4635f1377cdee091d078cd28fedf75db72e28d3",
+  "prompts": {},
+  "sessions": {
+    "s_7d6d4e99c432e7": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a05c12-2713-7121-9b92-b9fd5ebdfae1",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "happy <sxh139726845@163.com>"
+    }
+  }
+}
