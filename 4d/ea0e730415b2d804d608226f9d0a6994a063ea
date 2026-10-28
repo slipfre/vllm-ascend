@@ -1,0 +1,24 @@
+vllm_ascend/worker/v2/attn_utils.py
+  s_7ad20c9d182131::t_abe686e1533bdd 1116-1121
+  s_7ad20c9d182131::t_33872ce63c9e75 1115,1122-1143,1202,1224-1226
+release_notes/fragments/19880.yaml
+  s_7ad20c9d182131::t_33872ce63c9e75 1-5
+tests/ut/worker/test_glm5next_pooled_cache.py
+  s_7ad20c9d182131::t_33872ce63c9e75 188,193-194,254-256,262-287,291-293,296,298-328
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "4dea0e730415b2d804d608226f9d0a6994a063ea",
+  "prompts": {},
+  "sessions": {
+    "s_7ad20c9d182131": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a18273-820a-7263-8d04-935204da1bae",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "shenxionghao <sxh139726845@163.com>"
+    }
+  }
+}
