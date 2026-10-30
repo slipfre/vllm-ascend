@@ -1,0 +1,19 @@
+vllm_ascend/worker/v2/attn_utils.py
+  s_7ad20c9d182131::t_e896e33043daf8 1173,1180
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "9365585be4171242705159fb748a93a36fdad8cd",
+  "prompts": {},
+  "sessions": {
+    "s_7ad20c9d182131": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a18273-820a-7263-8d04-935204da1bae",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "shenxionghao <sxh139726845@163.com>"
+    }
+  }
+}
