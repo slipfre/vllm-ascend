@@ -70,6 +70,7 @@ from vllm_ascend.distributed.utils import (
     get_decode_context_model_parallel_rank,
     get_decode_context_model_parallel_world_size,
 )
+from vllm_ascend.models.glm5next.recoverssm_config import get_glm_recoverssm_pool_model_name
 
 
 class KVPoolWorker:
@@ -98,6 +99,7 @@ class KVPoolWorker:
         self.dp_rank = parallel_config.data_parallel_rank
 
         self._init_parallelism_info(model_config, parallel_config)
+        self.model_name = get_glm_recoverssm_pool_model_name(vllm_config, self.model_name)
         self._init_kv_transfer_config(vllm_config, extra_config, use_layerwise, kv_cache_config)
         self._init_key_head_config(model_config, parallel_config)
         self._init_metadata(model_config, vllm_config, extra_config)
@@ -311,7 +313,7 @@ class KVPoolWorker:
             group_tp_rank = self.tp_rank if self.group_uses_align_state[group_id] else self.head_or_tp_rank
             self.metadata.append(
                 KeyMetadata(
-                    model_config.model.rstrip("/").split("/")[-1],
+                    self.model_name,
                     group_tp_rank,
                     self.dcp_rank,
                     self.pp_rank,

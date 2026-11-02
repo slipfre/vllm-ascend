@@ -976,6 +976,38 @@ For prefill/decode separation, use `MooncakeConnectorV2` or
 `MooncakePullConnector` with matching model weights, TP size, speculative window,
 and RecoverSSM settings on both sides.
 
+### Memcache Prefill prefix pooling
+
+RecoverSSM also supports `AscendStoreConnector` with the `memcache` backend
+for storing and loading Prefill prefix checkpoints. It can be used alone or
+as a child of `MultiConnector` alongside `MooncakeConnectorV2` or
+`MooncakePullConnector`. Enable prefix caching so that Mamba uses `align` mode.
+For example, add this configuration to the serving options above:
+
+```shell
+--kv-transfer-config '{"kv_connector":"AscendStoreConnector","kv_role":"kv_both","kv_connector_extra_config":{"backend":"memcache","save_decode_cache":false,"discard_partial_chunks":true,"load_async":false}}'
+```
+
+Prepare Memcache as described in the [KV Cache Pool guide](kv_cache_pool_ascend_store.md#scenario-2-memcache-backend).
+Decode does not write back to the pool: `save_decode_cache` must remain false.
+Bulk loads must be synchronous (`load_async: false`), and only full prefix
+blocks are supported (`discard_partial_chunks: true`). Layerwise transfers
+are supported with `use_layerwise: true`, but omit `layerwise_num_shared_buffers`
+to retain independent storage for every layer. Shared-buffer layerwise offload
+and Decode state pooling are not supported because accepted recurrent state is
+committed after rejection sampling.
+
+All pool participants must use matching weights, TP size, speculative window,
+cache dtypes, and block sizes. RecoverSSM pool keys use a separate namespace
+from native KDA and include the state layout configuration. Removing
+`--use-replayssm` therefore does not reuse the RecoverSSM pool entries.
+
+To validate reuse, warm the pool with a Prefill request, then repeat its prefix
+on an engine without the local prefix cached. Confirm Memcache gets and prefix
+hits, compare continued generation against a cold Prefill, and verify that
+Decode produces no pool puts. Include partial draft acceptance, rejection,
+chunked Prefill, and block-boundary cases when validating on NPU hardware.
+
 !!! warning
 
     This feature is experimental. Floating-point differences can change generated

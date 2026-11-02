@@ -51,6 +51,7 @@ from vllm_ascend.distributed.kv_transfer.kv_pool.ascend_store.metadata import (
     LoadSpec,
     ReqMeta,
 )
+from vllm_ascend.distributed.kv_transfer.kv_pool.ascend_store.pool_worker import KVPoolWorker
 
 
 class TestDSparkPrefixRegistration(unittest.TestCase):
@@ -1177,6 +1178,33 @@ class TestKVPoolWorkerInit(unittest.TestCase):
 
 class TestKVPoolWorkerRegisterAndTransfer(unittest.TestCase):
     """Test register_kv_caches, start_load_kv, wait_for_save, get_finished, lookup_scheduler."""
+
+    def test_recoverssm_group_describes_all_four_state_tensors(self):
+        worker = KVPoolWorker.__new__(KVPoolWorker)
+        worker.num_blocks = 4
+        worker.num_layers = 1
+        worker.hf_config = SimpleNamespace(num_hidden_layers=1)
+        worker.use_layerwise = False
+        worker._global_to_local_layer = {}
+        worker.group_kv_caches_base_addr = {}
+        worker.group_block_len = {}
+        worker.group_block_stride = {}
+        worker.group_layer_cache_entry_offsets = {}
+        worker.group_cache_entry_segments = {}
+        worker.group_num_layers = {}
+        # Conv/recurrent checkpoints and compact correction/key-gate records.
+        states = (
+            torch.empty(4, 8, 3, dtype=torch.bfloat16),
+            torch.empty(4, 2, 4, 4, dtype=torch.float32),
+            torch.empty(4, 2, 6, 4, dtype=torch.float32),
+            torch.empty(4, 2, 6, 8, dtype=torch.bfloat16),
+        )
+        worker.kv_caches = {"model.layers.0.linear_attn": states}
+        worker._infer_cache_group_metadata(0, list(worker.kv_caches))
+        self.assertEqual(worker.group_kv_caches_base_addr[0], [state.data_ptr() for state in states])
+        self.assertEqual(worker.group_block_len[0], [state[0].numel() * state.element_size() for state in states])
+        self.assertEqual(worker.group_block_stride[0], worker.group_block_len[0])
+        self.assertEqual(worker.group_layer_cache_entry_offsets[0], [0, 4])
 
     def _patch_all(self):
         """Return a dict of started patches."""

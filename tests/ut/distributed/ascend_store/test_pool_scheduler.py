@@ -664,6 +664,22 @@ class TestKVPoolScheduler(unittest.TestCase):
 
 
 class TestKVPoolSchedulerBuildMeta(unittest.TestCase):
+    def test_prefill_only_pool_does_not_build_decode_save_metadata(self):
+        scheduler = KVPoolScheduler.__new__(KVPoolScheduler)
+        scheduler.save_decode_cache = False
+        scheduler.layerwise_offload = False
+        scheduler._unfinished_requests = {}
+        scheduler._request_trackers = {
+            "r1": SimpleNamespace(prefill_end_tokens=128, num_prompt_tokens=128),
+        }
+        scheduler._build_req_meta = MagicMock()
+        # A new block at the Decode boundary must not publish speculative state.
+        result = scheduler._process_running_cached_request(
+            [[42]], "r1", 0, SimpleNamespace(num_computed_tokens=[128]), MagicMock(), False
+        )
+        self.assertIsNone(result)
+        scheduler._build_req_meta.assert_not_called()
+
     def _make_config(self, kv_role="kv_producer", block_size=16, extra_config=None, num_layers=2):
         config = MagicMock()
         config.kv_transfer_config.kv_role = kv_role

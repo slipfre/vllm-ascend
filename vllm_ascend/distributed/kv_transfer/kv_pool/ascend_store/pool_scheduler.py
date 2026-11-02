@@ -42,6 +42,7 @@ from vllm_ascend.distributed.kv_transfer.kv_pool.ascend_store.metadata import (
 from vllm_ascend.distributed.kv_transfer.kv_pool.ascend_store.metrics import (
     AscendStoreKVConnectorStats,
 )
+from vllm_ascend.models.glm5next.recoverssm_config import get_glm_recoverssm_pool_model_name
 
 
 def _new_req_prefill_tokens(request: NewRequestData) -> list[int]:
@@ -193,7 +194,7 @@ class KVPoolScheduler:
         self.num_layers = vllm_config.model_config.get_num_layers(vllm_config.parallel_config)
         if self.use_layerwise:
             self._init_layerwise_offload(vllm_config, kv_cache_config)
-        self.model_name = model_config.model.split("/")[-1]
+        self.model_name = get_glm_recoverssm_pool_model_name(vllm_config, model_config.model.split("/")[-1])
 
         self.client: LookupKeyClient | None = None
 

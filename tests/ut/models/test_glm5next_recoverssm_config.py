@@ -66,7 +66,7 @@ def test_initialization_requires_speculative_decoding():
         ("parallel_config", "pipeline_parallel_size", 2, "PP=1 and PCP=1"),
         ("parallel_config", "prefill_context_parallel_size", 2, "PP=1 and PCP=1"),
         ("parallel_config", "decode_context_parallel_size", 2, "DCP=1"),
-        (None, "kv_transfer_config", SimpleNamespace(kv_connector="AscendStoreConnector"), "requires Mooncake"),
+        (None, "kv_transfer_config", SimpleNamespace(kv_connector="UnsupportedConnector"), "requires Mooncake"),
     ],
 )
 def test_initialization_rejects_unsupported_execution(section, field, value, message):

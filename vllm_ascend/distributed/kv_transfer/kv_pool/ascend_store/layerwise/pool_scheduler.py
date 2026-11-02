@@ -23,6 +23,7 @@ from vllm_ascend.distributed.kv_transfer.kv_pool.ascend_store.metadata import (
     get_group_block_size,
 )
 from vllm_ascend.distributed.kv_transfer.kv_pool.ascend_store.pool_scheduler import KVPoolScheduler
+from vllm_ascend.models.glm5next.recoverssm_config import get_glm_recoverssm_pool_model_name
 
 
 class LayerwiseKVPoolScheduler(KVPoolScheduler):
@@ -63,7 +64,9 @@ class LayerwiseKVPoolScheduler(KVPoolScheduler):
             self.layerwise_backend.bind_layerwise_keys(
                 vllm_config=vllm_config,
                 kv_cache_config=kv_cache_config,
-                model_name=vllm_config.model_config.model.split("/")[-1],
+                model_name=get_glm_recoverssm_pool_model_name(
+                    vllm_config, vllm_config.model_config.model.split("/")[-1]
+                ),
                 use_hybrid=self.use_hybrid,
                 grouped_block_size=self.grouped_block_size,
             )

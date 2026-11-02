@@ -1,0 +1,5 @@
+# Replace the placeholder filename and PR number when opening the PR.
+pr: 0
+entries:
+  - category: feature
+    text: Added experimental GLM-5.3-Flash RecoverSSM Prefill prefix pooling with the Memcache backend, including MultiConnector deployments. Decode cache writeback and shared-buffer layerwise offload remain unsupported.
