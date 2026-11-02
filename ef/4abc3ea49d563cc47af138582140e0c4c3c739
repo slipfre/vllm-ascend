@@ -1,0 +1,25 @@
+vllm_ascend/distributed/kv_transfer/kv_pool/ascend_store/pool_worker.py
+  s_a4d00d1c7cd58a::t_fa0139829f2f03 617-619
+tests/ut/distributed/ascend_store/test_pool_worker.py
+  s_a4d00d1c7cd58a::t_4fca74fb3cb2bd 687,694-695
+tests/ut/kv_offload/test_pool_worker_pp_object_bounds.py
+  s_a4d00d1c7cd58a::t_4fca74fb3cb2bd 11,13,39-51,53-67
+  s_a4d00d1c7cd58a::t_63144946604c2c 52
+  s_a4d00d1c7cd58a::t_ffbe957fbb0e12 68-69
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "ef4abc3ea49d563cc47af138582140e0c4c3c739",
+  "prompts": {},
+  "sessions": {
+    "s_a4d00d1c7cd58a": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a196f2-aa20-7f02-97ca-516db5db6269",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "shenxionghao <sxh139726845@163.com>"
+    }
+  }
+}
