@@ -1,0 +1,38 @@
+docs/source/user_guide/feature_guide/speculative_decoding.md
+  s_4eef6af0d3224a::t_b4c4d4e1f1ce83 1071-1089
+tests/ut/distributed/ascend_store/test_pool_scheduler.py
+  s_4eef6af0d3224a::t_739c5d1a149d69 728-735
+  s_4eef6af0d3224a::t_9dbad418074f07 727
+vllm_ascend/models/glm5next/recoverssm_config.py
+  s_4eef6af0d3224a::t_3e55d271805ace 40-66
+vllm_ascend/distributed/kv_transfer/kv_pool/ascend_store/pool_worker.py
+  s_4eef6af0d3224a::t_3e55d271805ace 3,5,90,721-752,754-755,794-798
+tests/ut/distributed/ascend_store/test_glm53_store.py
+  s_4eef6af0d3224a::t_b4c4d4e1f1ce83 44-49,51-52,136-139,181-187,192-193,219,227,231-234,273-276,281,283,285-286,288,291,293-294
+  s_4eef6af0d3224a::t_c6a3f61fc5d572 228-230
+  s_4eef6af0d3224a::t_e9a41baba186b2 277-280,282,284,287,292,295-301
+  s_4eef6af0d3224a::t_92bc4372fece4c 38,50,289-290
+  s_4eef6af0d3224a::t_3259fcd791559d 302
+tests/ut/models/test_glm5next_recoverssm_config.py
+  s_4eef6af0d3224a::t_b4c4d4e1f1ce83 24,27-28,74,85-88,90-139
+  s_4eef6af0d3224a::t_c6a3f61fc5d572 21-23,89
+  s_4eef6af0d3224a::t_b679387c243303 140-141
+tests/ut/distributed/ascend_store/test_pool_worker.py
+  s_4eef6af0d3224a::t_b4c4d4e1f1ce83 122,176-179
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "5618fb3491d2374ed2022f384112cfa5074b56b4",
+  "prompts": {},
+  "sessions": {
+    "s_4eef6af0d3224a": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a19f5c-1e43-7f60-91a6-97b30a3eab64",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "shenxionghao <sxh139726845@163.com>"
+    }
+  }
+}
