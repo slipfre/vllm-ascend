@@ -1,0 +1,32 @@
+tests/ut/kv_offload/test_pool_worker_pp_object_bounds.py
+  s_a4d00d1c7cd58a::t_ffbe957fbb0e12 68-69
+  s_a4d00d1c7cd58a::t_63144946604c2c 52
+  s_a4d00d1c7cd58a::t_4fca74fb3cb2bd 11,13,39-51,53-67
+  s_a4d00d1c7cd58a::t_ae677e4aad1b77 70-100,134,154,165,183,185
+vllm_ascend/distributed/kv_transfer/kv_pool/ascend_store/layerwise/pool_worker.py
+  s_a4d00d1c7cd58a::t_ffea8c771080cd 403
+vllm_ascend/distributed/kv_transfer/kv_pool/ascend_store/pool_worker.py
+  s_a4d00d1c7cd58a::t_ffea8c771080cd 625,629
+  s_a4d00d1c7cd58a::t_772a18addd6330 630-631
+release_notes/fragments/20856.yaml
+  s_a4d00d1c7cd58a::t_42bdc69e8431a6 1-7
+tests/ut/distributed/ascend_store/test_pool_worker.py
+  s_a4d00d1c7cd58a::t_4fca74fb3cb2bd 694-695
+  s_a4d00d1c7cd58a::t_ae677e4aad1b77 687,698
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "dbde9815edaff70050c81cf1c944f4ccf25ef275",
+  "prompts": {},
+  "sessions": {
+    "s_a4d00d1c7cd58a": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a196f2-aa20-7f02-97ca-516db5db6269",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": null
+    }
+  }
+}
