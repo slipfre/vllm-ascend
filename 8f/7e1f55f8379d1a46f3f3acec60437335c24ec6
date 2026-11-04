@@ -1,0 +1,25 @@
+vllm_ascend/distributed/kv_transfer/kv_pool/ascend_store/pool_worker.py
+  s_7fd66682befc76::t_b22bf3f45ae9e7 20,725,729,736-741,743-749
+  s_7fd66682befc76::t_b05142accd268e 27
+tests/ut/distributed/ascend_store/test_glm53_store.py
+  s_7fd66682befc76::t_b05142accd268e 293-294,296-297,299-311,317,319
+  s_7fd66682befc76::t_b22bf3f45ae9e7 16-17,291-292,295,298,312-316,318,320-322
+tests/ut/distributed/ascend_store/test_pool_worker.py
+  s_7fd66682befc76::t_b22bf3f45ae9e7 31,124,179-186
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "8f7e1f55f8379d1a46f3f3acec60437335c24ec6",
+  "prompts": {},
+  "sessions": {
+    "s_7fd66682befc76": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1a074-fa65-7700-bbb0-20bb9b7bcfc8",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": null
+    }
+  }
+}
