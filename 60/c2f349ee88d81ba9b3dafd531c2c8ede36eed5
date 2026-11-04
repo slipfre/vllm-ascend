@@ -1,10 +1,13 @@
 docs/source/user_guide/feature_guide/speculative_decoding.md
   s_4eef6af0d3224a::t_b4c4d4e1f1ce83 1122-1131,1134-1137,1140
+  s_4eef6af0d3224a::t_ed5d73c0e5b854 1132-1133,1138-1139
 tests/ut/distributed/ascend_store/test_pool_scheduler.py
   s_4eef6af0d3224a::t_739c5d1a149d69 730-737
   s_4eef6af0d3224a::t_9dbad418074f07 729
 vllm_ascend/models/glm5next/recoverssm_config.py
   s_4eef6af0d3224a::t_3e55d271805ace 46-47,50-55,57-60,62-72
+  s_4eef6af0d3224a::t_caf9b9561d19c0 10,48,56,61
+  s_4eef6af0d3224a::t_be3a8c558add9e 40,44,49
 vllm_ascend/distributed/kv_transfer/kv_pool/ascend_store/pool_worker.py
   s_4eef6af0d3224a::t_3e55d271805ace 3,5,90,724-755,757-758,797-801
 tests/ut/distributed/ascend_store/test_glm53_store.py
@@ -17,6 +20,7 @@ tests/ut/models/test_glm5next_recoverssm_config.py
   s_4eef6af0d3224a::t_b4c4d4e1f1ce83 28-29,75,124-125,127-128,130-179
   s_4eef6af0d3224a::t_c6a3f61fc5d572 21-23,129
   s_4eef6af0d3224a::t_b679387c243303 180-181
+  s_4eef6af0d3224a::t_0921e082601f10 110,126
 tests/ut/distributed/ascend_store/test_pool_worker.py
   s_4eef6af0d3224a::t_b4c4d4e1f1ce83 122,176-179
 ---
