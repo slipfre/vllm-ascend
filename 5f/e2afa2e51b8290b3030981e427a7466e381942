@@ -1,0 +1,19 @@
+tests/ut/models/test_glm5next_recoverssm_config.py
+  s_7fd66682befc76::t_cb3159bf51c3f8 45-47,81
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "5fe2afa2e51b8290b3030981e427a7466e381942",
+  "prompts": {},
+  "sessions": {
+    "s_7fd66682befc76": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1a074-fa65-7700-bbb0-20bb9b7bcfc8",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "shenxionghao <sxh139726845@163.com>"
+    }
+  }
+}

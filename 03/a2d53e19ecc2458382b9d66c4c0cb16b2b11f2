@@ -1,0 +1,19 @@
+vllm_ascend/distributed/kv_transfer/kv_pool/ascend_store/metadata.py
+  s_e52adafe6d0f24::t_a7f14353a7cf7a 124
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "03a2d53e19ecc2458382b9d66c4c0cb16b2b11f2",
+  "prompts": {},
+  "sessions": {
+    "s_e52adafe6d0f24": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1ab0a-f24d-7310-96b9-378ec4333d93",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "shenxionghao <sxh139726845@163.com>"
+    }
+  }
+}

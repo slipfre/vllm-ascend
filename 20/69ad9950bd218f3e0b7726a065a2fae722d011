@@ -1,0 +1,19 @@
+tests/ut/distributed/ascend_store/test_glm53_store.py
+  s_7fd66682befc76::t_6da1b388bfd128 340-347,349-355,368,419,423-428,499
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "2069ad9950bd218f3e0b7726a065a2fae722d011",
+  "prompts": {},
+  "sessions": {
+    "s_7fd66682befc76": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1a074-fa65-7700-bbb0-20bb9b7bcfc8",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "shenxionghao <sxh139726845@163.com>"
+    }
+  }
+}
