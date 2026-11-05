@@ -1,0 +1,54 @@
+vllm_ascend/distributed/kv_transfer/kv_pool/ascend_store/backend/layerwise_keys.py
+  s_7fd66682befc76::t_c2fb7e62cb83cf 6-7,10-13,23-33,35,41-48,50-51,53,55-56
+  s_7fd66682befc76::t_53d0fa967246cb 49
+tests/ut/distributed/ascend_store/test_glm53_store.py
+  s_7fd66682befc76::t_35dff6ee61f17f 453,488,504-537
+  s_7fd66682befc76::t_e87669f010c51b 347-350,359-362,367-373,474-475
+  s_7fd66682befc76::t_cd9d9d86644211 498-503
+  s_7fd66682befc76::t_05e14fbdc66af0 539-553,561
+  s_7fd66682befc76::t_1ce636e506ba4d 554-560
+  s_7fd66682befc76::t_f442d5d90eb84c 10,22,43-46,236,341-342,346,353-358,364-366,375,378-379,415-416,423-425,427,430-431,434-442,451,459-460,466-467,473,477,484,492-497
+  s_7fd66682befc76::t_3b4c1205102076 343-345,351-352,363,374,432,445-450,458,465,476
+  s_7fd66682befc76::t_a0844e13ccfbbb 538
+tests/ut/distributed/ascend_store/test_mooncake_layerwise.py
+  s_7fd66682befc76::t_05e14fbdc66af0 200
+vllm_ascend/distributed/kv_transfer/kv_pool/ascend_store/pool_worker.py
+  s_7fd66682befc76::t_99a93720e627d9 54-56,297-299
+  s_7fd66682befc76::t_3b4c1205102076 295
+vllm_ascend/distributed/kv_transfer/kv_pool/ascend_store/mamba_state_sharding.py
+  s_7fd66682befc76::t_99a93720e627d9 1-25,39
+  s_7fd66682befc76::t_3b4c1205102076 26-38,40
+vllm_ascend/distributed/kv_transfer/kv_pool/ascend_store/layerwise/pool_scheduler.py
+  s_7fd66682befc76::t_393da0e1be3545 56,58
+  s_7fd66682befc76::t_3b4c1205102076 57
+  s_7fd66682befc76::t_53d0fa967246cb 311
+  s_7fd66682befc76::t_99a93720e627d9 20-22
+  s_7fd66682befc76::t_c2fb7e62cb83cf 320-325
+tests/ut/distributed/ascend_store/test_pool_worker.py
+  s_7fd66682befc76::t_f442d5d90eb84c 180-183
+tests/ut/distributed/ascend_store/test_mooncake_hybrid.py
+  s_7fd66682befc76::t_160b4c59bf2c46 52-54
+  s_7fd66682befc76::t_05e14fbdc66af0 453
+vllm_ascend/distributed/kv_transfer/kv_pool/ascend_store/layerwise/pool_worker.py
+  s_7fd66682befc76::t_c2fb7e62cb83cf 751-756
+  s_7fd66682befc76::t_99a93720e627d9 705-710
+tests/ut/distributed/ascend_store/test_pool_scheduler.py
+  s_7fd66682befc76::t_c2fb7e62cb83cf 93,124,141-143
+  s_7fd66682befc76::t_160b4c59bf2c46 69-75,83,109,137
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "c76ca7b1df576490ecd4a3b25c9381c0d9d03a12",
+  "prompts": {},
+  "sessions": {
+    "s_7fd66682befc76": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1a074-fa65-7700-bbb0-20bb9b7bcfc8",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "shenxionghao <sxh139726845@163.com>"
+    }
+  }
+}
