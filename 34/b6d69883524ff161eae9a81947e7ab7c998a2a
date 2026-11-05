@@ -1,0 +1,103 @@
+tests/ut/models/test_glm5next_recoverssm_config.py
+  s_4eef6af0d3224a::t_b4c4d4e1f1ce83 28-29,125,127-128,130-133
+  s_7fd66682befc76::t_b6b548a7f1e2f1 75,109-110,124-133
+  s_7fd66682befc76::t_cb3159bf51c3f8 45-47,81
+tests/ut/distributed/ascend_store/test_glm53_store.py
+  s_4eef6af0d3224a::t_b4c4d4e1f1ce83 53,54,55-58,60-61,145-148,194-200,208-209,239,248-252,290-294,303-305
+  s_4eef6af0d3224a::t_e9a41baba186b2 295-302,306-308
+  s_4eef6af0d3224a::t_3259fcd791559d 334,341
+  s_4eef6af0d3224a::t_92bc4372fece4c 47,59
+  s_7fd66682befc76::t_b22bf3f45ae9e7 17-18,309,323-327,329,331-333
+  s_7fd66682befc76::t_b05142accd268e 310-322,328,330
+  s_7fd66682befc76::t_255d43c7c5ec24 335-340
+  s_7fd66682befc76::t_4cbf97953bb2a3 39,204-207,210,226-228,235-237,258-259,280
+  s_7fd66682befc76::t_35dff6ee61f17f 455,491,507-531,537-544
+  s_7fd66682befc76::t_e87669f010c51b 349-352,361-364,369-375,477-478
+  s_7fd66682befc76::t_cd9d9d86644211 501-506
+  s_7fd66682befc76::t_05e14fbdc66af0 546-560,568
+  s_7fd66682befc76::t_1ce636e506ba4d 561-567
+  s_7fd66682befc76::t_f442d5d90eb84c 10,22,43-46,240,343-344,348,355-360,366-368,377,380-381,417-418,425-427,429,432-433,436-444,453,461-462,468-469,476,480,487,495-500
+  s_7fd66682befc76::t_3b4c1205102076 345-347,353-354,365,376,434,447-452,460,467,479
+  s_7fd66682befc76::t_a0844e13ccfbbb 545
+vllm_ascend/distributed/kv_transfer/kv_pool/ascend_store/pool_worker.py
+  s_4eef6af0d3224a::t_3e55d271805ace 96,744,746-748,750-755,762,770-771,773-774
+  s_7fd66682befc76::t_b05142accd268e 27
+  s_7fd66682befc76::t_b22bf3f45ae9e7 20,745,749,756-761,763-769
+  s_7fd66682befc76::t_fdbf489551a089 30,99,113,295-296,298,302,331-333,459,1569-1571,1589
+  s_7fd66682befc76::t_99a93720e627d9 54-56,299-301
+  s_7fd66682befc76::t_3b4c1205102076 297
+tests/ut/distributed/ascend_store/test_pool_scheduler.py
+  s_4eef6af0d3224a::t_9dbad418074f07 737
+  s_4eef6af0d3224a::t_739c5d1a149d69 738-745
+  s_7fd66682befc76::t_c2fb7e62cb83cf 91,122,139-141
+  s_7fd66682befc76::t_160b4c59bf2c46 81,107,135
+tests/ut/distributed/ascend_store/test_pool_worker.py
+  s_4eef6af0d3224a::t_b4c4d4e1f1ce83 123,179
+  s_7fd66682befc76::t_b22bf3f45ae9e7 31,124,185,186-190
+  s_7fd66682befc76::t_ef9e864f6029f6 191
+  s_7fd66682befc76::t_fdbf489551a089 125,184
+  s_7fd66682befc76::t_f442d5d90eb84c 180-183
+vllm_ascend/models/glm5next/recoverssm_config.py
+  s_4eef6af0d3224a::t_caf9b9561d19c0 10
+  s_7fd66682befc76::t_1bd703fc9bee81 43-44
+tests/ut/models/test_glm5next_kda_pcp.py
+  s_7fd66682befc76::t_fdbf489551a089 167-170
+vllm_ascend/core/kv_cache_interface.py
+  s_7fd66682befc76::t_fdbf489551a089 28-44
+vllm_ascend/distributed/kv_transfer/kv_pool/ascend_store/kv_transfer.py
+  s_7fd66682befc76::t_fdbf489551a089 15,469,483,826-830,838-839
+vllm_ascend/models/glm5next/model.py
+  s_7fd66682befc76::t_fdbf489551a089 81,83,87,94,985-990,1061-1065
+  s_7fd66682befc76::t_64563bb412d1c3 1066
+vllm_ascend/models/glm5next/kda.py
+  s_7fd66682befc76::t_fdbf489551a089 9,35
+tests/ut/distributed/ascend_store/test_kv_transfer.py
+  s_7fd66682befc76::t_fdbf489551a089 43,559,574,604-620
+  s_7fd66682befc76::t_b5e636ac40fb04 621
+vllm_ascend/models/glm5next/parallel.py
+  s_7fd66682befc76::t_2f5ffb5ba904e0 1-27
+vllm_ascend/distributed/kv_transfer/kv_pool/ascend_store/backend/layerwise_keys.py
+  s_7fd66682befc76::t_c2fb7e62cb83cf 6-7,10-13,23-33,35,41-48,50-51,53,55-56
+  s_7fd66682befc76::t_53d0fa967246cb 49
+tests/ut/distributed/ascend_store/test_mooncake_layerwise.py
+  s_7fd66682befc76::t_05e14fbdc66af0 200
+vllm_ascend/distributed/kv_transfer/kv_pool/ascend_store/mamba_state_sharding.py
+  s_7fd66682befc76::t_99a93720e627d9 1-25,39
+  s_7fd66682befc76::t_3b4c1205102076 26-38,40
+vllm_ascend/distributed/kv_transfer/kv_pool/ascend_store/layerwise/pool_scheduler.py
+  s_7fd66682befc76::t_393da0e1be3545 55,57
+  s_7fd66682befc76::t_3b4c1205102076 56
+  s_7fd66682befc76::t_53d0fa967246cb 310
+  s_7fd66682befc76::t_99a93720e627d9 20-22
+  s_7fd66682befc76::t_c2fb7e62cb83cf 319-324
+tests/ut/distributed/ascend_store/test_mooncake_hybrid.py
+  s_7fd66682befc76::t_160b4c59bf2c46 52-54
+  s_7fd66682befc76::t_05e14fbdc66af0 453
+vllm_ascend/distributed/kv_transfer/kv_pool/ascend_store/layerwise/pool_worker.py
+  s_7fd66682befc76::t_c2fb7e62cb83cf 751-756
+  s_7fd66682befc76::t_99a93720e627d9 705-710
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "34b6d69883524ff161eae9a81947e7ab7c998a2a",
+  "prompts": {},
+  "sessions": {
+    "s_4eef6af0d3224a": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a19f5c-1e43-7f60-91a6-97b30a3eab64",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "shenxionghao <sxh139726845@163.com>"
+    },
+    "s_7fd66682befc76": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1a074-fa65-7700-bbb0-20bb9b7bcfc8",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": null
+    }
+  }
+}

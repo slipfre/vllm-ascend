@@ -1,0 +1,19 @@
+tests/ut/kv_offload/test_pool_worker_pp_layer_count.py
+  s_7fd66682befc76::t_2756cabc5e6079 44
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "627e7ab5ba3834aeb77cc55d428c75fa663676fd",
+  "prompts": {},
+  "sessions": {
+    "s_7fd66682befc76": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1a074-fa65-7700-bbb0-20bb9b7bcfc8",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "shenxionghao <sxh139726845@163.com>"
+    }
+  }
+}
