@@ -1,0 +1,53 @@
+vllm_ascend/distributed/kv_transfer/kv_pool/ascend_store/backend/layerwise_keys.py
+  s_7fd66682befc76::t_c2fb7e62cb83cf 6-7,10-13,22-29,31,35
+  s_7fd66682befc76::t_53d0fa967246cb 30
+tests/ut/distributed/ascend_store/test_glm53_store.py
+  s_7fd66682befc76::t_35dff6ee61f17f 451,485,501-514,516-517,519-534
+  s_7fd66682befc76::t_e87669f010c51b 345-348,357-360,365-371,471-472
+  s_7fd66682befc76::t_cd9d9d86644211 495-500
+  s_7fd66682befc76::t_05e14fbdc66af0 536-550,558
+  s_7fd66682befc76::t_1ce636e506ba4d 551-557
+  s_7fd66682befc76::t_f442d5d90eb84c 10,22,43-46,236,339-340,344,351-356,362-364,373,376-377,413-414,421-423,425,428-429,432-440,449,457-458,470,474,481,489-494
+  s_7fd66682befc76::t_3b4c1205102076 341-343,349-350,361,372,430,443-448,456,463,473
+  s_7fd66682befc76::t_a0844e13ccfbbb 535
+tests/ut/distributed/ascend_store/test_mooncake_layerwise.py
+  s_7fd66682befc76::t_05e14fbdc66af0 200
+vllm_ascend/distributed/kv_transfer/kv_pool/ascend_store/pool_worker.py
+  s_7fd66682befc76::t_99a93720e627d9 54-56,299-301
+  s_7fd66682befc76::t_3b4c1205102076 297
+vllm_ascend/distributed/kv_transfer/kv_pool/ascend_store/mamba_state_sharding.py
+  s_7fd66682befc76::t_99a93720e627d9 1-25,39
+  s_7fd66682befc76::t_3b4c1205102076 26-38,40
+vllm_ascend/distributed/kv_transfer/kv_pool/ascend_store/layerwise/pool_scheduler.py
+  s_7fd66682befc76::t_393da0e1be3545 49,51
+  s_7fd66682befc76::t_3b4c1205102076 50
+  s_7fd66682befc76::t_53d0fa967246cb 294
+  s_7fd66682befc76::t_99a93720e627d9 20-22
+  s_7fd66682befc76::t_c2fb7e62cb83cf 303-308
+tests/ut/distributed/ascend_store/test_pool_worker.py
+  s_7fd66682befc76::t_f442d5d90eb84c 180-183
+tests/ut/distributed/ascend_store/test_mooncake_hybrid.py
+  s_7fd66682befc76::t_160b4c59bf2c46 52-54
+  s_7fd66682befc76::t_05e14fbdc66af0 442
+vllm_ascend/distributed/kv_transfer/kv_pool/ascend_store/layerwise/pool_worker.py
+  s_7fd66682befc76::t_99a93720e627d9 705-710
+tests/ut/distributed/ascend_store/test_pool_scheduler.py
+  s_7fd66682befc76::t_c2fb7e62cb83cf 91,122,139-141
+  s_7fd66682befc76::t_160b4c59bf2c46 67-73,81,107,135
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "9c8db0e2c3bd64da7db53ee58aca6217d12b9090",
+  "prompts": {},
+  "sessions": {
+    "s_7fd66682befc76": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1a074-fa65-7700-bbb0-20bb9b7bcfc8",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "shenxionghao <sxh139726845@163.com>"
+    }
+  }
+}

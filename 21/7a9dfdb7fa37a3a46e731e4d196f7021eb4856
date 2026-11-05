@@ -1,0 +1,52 @@
+tests/ut/distributed/ascend_store/test_pool_worker.py
+  s_7fd66682befc76::t_fdbf489551a089 125,180-181
+tests/ut/distributed/ascend_store/test_glm53_store.py
+  s_4eef6af0d3224a::t_b4c4d4e1f1ce83 48
+  s_7fd66682befc76::t_4cbf97953bb2a3 37,194-197,200,216-225,232-234,237,255-256,277
+vllm_ascend/distributed/kv_transfer/kv_pool/ascend_store/pool_worker.py
+  s_7fd66682befc76::t_fdbf489551a089 30,96,110,292-305,334-336,462,1572-1574,1592
+tests/ut/models/test_glm5next_kda_pcp.py
+  s_7fd66682befc76::t_fdbf489551a089 167-170
+vllm_ascend/core/kv_cache_interface.py
+  s_7fd66682befc76::t_fdbf489551a089 28-44
+vllm_ascend/distributed/kv_transfer/kv_pool/ascend_store/kv_transfer.py
+  s_7fd66682befc76::t_fdbf489551a089 15,469,483,826-830,838-839
+vllm_ascend/models/glm5next/model.py
+  s_7fd66682befc76::t_fdbf489551a089 79,81,85,92,965-970,1041-1045
+  s_7fd66682befc76::t_64563bb412d1c3 1046
+vllm_ascend/models/glm5next/kda.py
+  s_7fd66682befc76::t_fdbf489551a089 9,35
+tests/ut/distributed/ascend_store/test_kv_transfer.py
+  s_7fd66682befc76::t_fdbf489551a089 43,559,574,604-620
+  s_7fd66682befc76::t_b5e636ac40fb04 621
+tests/ut/models/test_glm5next_recoverssm_config.py
+  s_7fd66682befc76::t_b6b548a7f1e2f1 73,108-109,123-132
+vllm_ascend/models/glm5next/parallel.py
+  s_7fd66682befc76::t_2f5ffb5ba904e0 1-27
+vllm_ascend/models/glm5next/recoverssm_config.py
+  s_7fd66682befc76::t_1bd703fc9bee81 44-45
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "217a9dfdb7fa37a3a46e731e4d196f7021eb4856",
+  "prompts": {},
+  "sessions": {
+    "s_4eef6af0d3224a": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a19f5c-1e43-7f60-91a6-97b30a3eab64",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "shenxionghao <sxh139726845@163.com>"
+    },
+    "s_7fd66682befc76": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1a074-fa65-7700-bbb0-20bb9b7bcfc8",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "shenxionghao <sxh139726845@163.com>"
+    }
+  }
+}
