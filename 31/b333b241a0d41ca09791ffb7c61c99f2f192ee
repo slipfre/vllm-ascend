@@ -1,0 +1,27 @@
+tests/ut/models/test_glm5next_kda_pcp.py
+  s_e52adafe6d0f24::t_8af9bda6fcb851 171-172
+vllm_ascend/models/glm5next/kda.py
+  s_e52adafe6d0f24::t_8af9bda6fcb851 9,32,42-59
+  s_e52adafe6d0f24::t_294c11b5409bab 60-61
+vllm_ascend/models/glm5next/model.py
+  s_e52adafe6d0f24::t_8af9bda6fcb851 87
+tests/ut/distributed/ascend_store/test_glm53_store.py
+  s_e52adafe6d0f24::t_3f3ccf537698f6 368,379
+  s_e52adafe6d0f24::t_8af9bda6fcb851 25,42-58,254,532,581
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "31b333b241a0d41ca09791ffb7c61c99f2f192ee",
+  "prompts": {},
+  "sessions": {
+    "s_e52adafe6d0f24": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1ab0a-f24d-7310-96b9-378ec4333d93",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "shenxionghao <sxh139726845@163.com>"
+    }
+  }
+}
