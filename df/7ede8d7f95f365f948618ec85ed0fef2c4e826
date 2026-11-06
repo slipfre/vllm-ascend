@@ -1,0 +1,110 @@
+vllm_ascend/distributed/kv_transfer/kv_pool/ascend_store/metadata.py
+  s_e52adafe6d0f24::t_a7f14353a7cf7a 124
+vllm_ascend/distributed/kv_transfer/kv_pool/ascend_store/backend/layerwise_keys.py
+  s_a92e633ddc2778::t_30bf77a3ac835c 43
+  s_7fd66682befc76::t_c2fb7e62cb83cf 17-27,29,35-40,42,44
+  s_7fd66682befc76::t_0f139a00ae54ba 41
+  s_a92e633ddc2778::t_31be458c1575a4 46,48
+tests/ut/distributed/ascend_store/test_mooncake_pcp.py
+  s_a92e633ddc2778::t_9d58131fbf3597 71-73,76,82,113-114,124
+vllm_ascend/distributed/kv_transfer/kv_pool/ascend_store/layerwise/pool_scheduler.py
+  s_7fd66682befc76::t_dd639271e5b757 325-327
+  s_7fd66682befc76::t_3b4c1205102076 56
+  s_7fd66682befc76::t_1cc905d3817b23 58-59
+  s_a92e633ddc2778::t_31f7ec66559c49 312,328-329
+  s_7fd66682befc76::t_99a93720e627d9 20-22
+  s_7fd66682befc76::t_393da0e1be3545 55,57
+  s_7fd66682befc76::t_c2fb7e62cb83cf 321-324
+tests/ut/distributed/ascend_store/test_mooncake_hybrid.py
+  s_7fd66682befc76::t_160b4c59bf2c46 52-54
+  s_7fd66682befc76::t_05e14fbdc66af0 453
+tests/ut/distributed/ascend_store/test_mooncake_layerwise.py
+  s_7fd66682befc76::t_05e14fbdc66af0 200
+tests/ut/distributed/ascend_store/test_pool_scheduler.py
+  s_7fd66682befc76::t_c2fb7e62cb83cf 85,116,133-135
+  s_7fd66682befc76::t_160b4c59bf2c46 75,101,129
+vllm_ascend/distributed/kv_transfer/kv_pool/ascend_store/layerwise/pool_worker.py
+  s_7fd66682befc76::t_99a93720e627d9 705-709
+  s_7fd66682befc76::t_4152b8b5ade005 751
+  s_7fd66682befc76::t_c2fb7e62cb83cf 752-755
+  s_7fd66682befc76::t_626164646dcc5a 750
+tests/ut/distributed/ascend_store/test_glm53_store.py
+  s_a92e633ddc2778::t_a0d65edb72122f 348-355,358,438,446,452,482,484-486,488-490
+  s_7fd66682befc76::t_f442d5d90eb84c 10,22,203,338,345-347,360-369,372-373,409-410,417-419,421,424-425,429,441,447,467
+  s_7fd66682befc76::t_35dff6ee61f17f 431,475-481,483,487,491-502,508-515
+  s_7fd66682befc76::t_3b4c1205102076 335-337,343,427-428
+  s_e52adafe6d0f24::t_3f3ccf537698f6 344
+  s_7fd66682befc76::t_4cbf97953bb2a3 199,219-221,228-229
+  s_7fd66682befc76::t_1ce636e506ba4d 532-537,545
+  s_7fd66682befc76::t_cd9d9d86644211 471
+  s_7fd66682befc76::t_05e14fbdc66af0 430,432-433,517-531,538
+  s_7fd66682befc76::t_e87669f010c51b 339-342,356-357,359
+  s_a92e633ddc2778::t_bbe65c9397d7a5 230,250-251,272,434-435,439,453-456,542-544,546-553
+  s_7fd66682befc76::t_a0844e13ccfbbb 516
+  s_4eef6af0d3224a::t_b4c4d4e1f1ce83 49,200
+  s_e52adafe6d0f24::t_1237cb148f3b0d 503-507
+  s_a92e633ddc2778::t_4c5cffccf5e745 539-541
+vllm_ascend/models/glm5next/recoverssm_config.py
+  s_7fd66682befc76::t_1bd703fc9bee81 43-44
+vllm_ascend/distributed/kv_transfer/kv_pool/ascend_store/pool_worker.py
+  s_7fd66682befc76::t_fdbf489551a089 111
+  s_7fd66682befc76::t_99a93720e627d9 53-55
+  s_7fd66682befc76::t_3e614e3ae1b67f 112-113
+  s_a92e633ddc2778::t_2e76d047375cd8 323-324,450,1560-1561,1579
+vllm_ascend/distributed/kv_transfer/kv_pool/ascend_store/kv_transfer.py
+  s_7fd66682befc76::t_99ba252755af1f 825
+  s_7fd66682befc76::t_9b5e9b3b06477d 826-828
+  s_a92e633ddc2778::t_651b02cd248888 468,482,836-837
+tests/ut/models/test_glm5next_recoverssm_config.py
+  s_7fd66682befc76::t_b6b548a7f1e2f1 75,109-110,124-133
+  s_7fd66682befc76::t_cb3159bf51c3f8 45-47,81
+vllm_ascend/distributed/kv_transfer/kv_pool/ascend_store/mamba_state_sharding.py
+  s_7fd66682befc76::t_99a93720e627d9 1-9,11-12,15,19
+  s_a92e633ddc2778::t_a0d65edb72122f 10,13-14,16-18,20,26-29,31-33
+  s_7fd66682befc76::t_3b4c1205102076 21-25,30
+tests/ut/distributed/ascend_store/test_kv_transfer.py
+  s_7fd66682befc76::t_fdbf489551a089 603-615
+  s_a92e633ddc2778::t_3cdbcea40bd369 558,573
+tests/ut/kv_offload/test_pool_worker_pp_layer_count.py
+  s_7fd66682befc76::t_2756cabc5e6079 44
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "df7ede8d7f95f365f948618ec85ed0fef2c4e826",
+  "prompts": {},
+  "sessions": {
+    "s_4eef6af0d3224a": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a19f5c-1e43-7f60-91a6-97b30a3eab64",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "shenxionghao <sxh139726845@163.com>"
+    },
+    "s_7fd66682befc76": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1a074-fa65-7700-bbb0-20bb9b7bcfc8",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": null
+    },
+    "s_a92e633ddc2778": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1afc1-2108-7cc0-81ec-aa137f8666a8",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": null
+    },
+    "s_e52adafe6d0f24": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1ab0a-f24d-7310-96b9-378ec4333d93",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "shenxionghao <sxh139726845@163.com>"
+    }
+  }
+}
