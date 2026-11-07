@@ -1,0 +1,121 @@
+tests/ut/distributed/ascend_store/test_pool_worker.py
+  s_a92e633ddc2778::t_35dcc0616a8e41 572
+vllm_ascend/distributed/kv_transfer/kv_pool/ascend_store/layerwise/pool_scheduler.py
+  s_a92e633ddc2778::t_35dcc0616a8e41 21,316-317,327
+  s_a92e633ddc2778::t_b56b0e457f43e9 318-322,326
+  s_a92e633ddc2778::t_31f7ec66559c49 310
+  s_a92e633ddc2778::t_d9dc71bc551bbb 55-57
+  s_7fd66682befc76::t_c2fb7e62cb83cf 323
+  s_7fd66682befc76::t_dd639271e5b757 324-325
+  s_7fd66682befc76::t_99a93720e627d9 20,22
+tests/ut/distributed/ascend_store/test_mooncake_pcp.py
+  s_a92e633ddc2778::t_9d58131fbf3597 71-73,76,82,113-114,124
+tests/ut/distributed/ascend_store/test_glm53_store.py
+  s_7fd66682befc76::t_4cbf97953bb2a3 199,221,228-229
+  s_7fd66682befc76::t_a0844e13ccfbbb 515
+  s_7fd66682befc76::t_cd9d9d86644211 470
+  s_7fd66682befc76::t_1ce636e506ba4d 531-536
+  s_4eef6af0d3224a::t_b4c4d4e1f1ce83 49,200
+  s_7fd66682befc76::t_e87669f010c51b 338-341,355-356,358
+  s_e52adafe6d0f24::t_1237cb148f3b0d 502-506
+  s_a92e633ddc2778::t_b56b0e457f43e9 219-220,250,544
+  s_7fd66682befc76::t_05e14fbdc66af0 429,431-432,516-530,537
+  s_a92e633ddc2778::t_a0d65edb72122f 347-354,357,437,445,451,481,483-485,487-489
+  s_7fd66682befc76::t_3b4c1205102076 334-336,342,426-427
+  s_a92e633ddc2778::t_35dcc0616a8e41 271
+  s_e52adafe6d0f24::t_3f3ccf537698f6 343
+  s_a92e633ddc2778::t_bbe65c9397d7a5 230,433-434,438,452-455,541-543,545-552
+  s_7fd66682befc76::t_f442d5d90eb84c 10,22,203,337,344-346,359-368,371-372,408-409,416-418,420,423-424,428,440,446,466
+  s_7fd66682befc76::t_35dff6ee61f17f 430,474-480,482,486,490-501,507-514
+  s_a92e633ddc2778::t_4c5cffccf5e745 538-540
+tests/ut/distributed/ascend_store/test_mooncake_layerwise.py
+  s_a92e633ddc2778::t_35dcc0616a8e41 200
+tests/ut/distributed/ascend_store/test_mooncake_hybrid.py
+  s_7fd66682befc76::t_160b4c59bf2c46 52-54
+  s_a92e633ddc2778::t_35dcc0616a8e41 453
+tests/ut/distributed/ascend_store/test_pool_scheduler.py
+  s_a92e633ddc2778::t_e45b5274a2d76c 116-118
+  s_a92e633ddc2778::t_d9dc71bc551bbb 229-231,253
+  s_7fd66682befc76::t_c2fb7e62cb83cf 135-137
+  s_a92e633ddc2778::t_35dcc0616a8e41 75,85,101,131
+  s_a92e633ddc2778::t_75a2b5e899633c 228,232,254-255
+tests/ut/models/test_glm5next_recoverssm_config.py
+  s_7fd66682befc76::t_b6b548a7f1e2f1 75,109-110,124-133
+  s_7fd66682befc76::t_cb3159bf51c3f8 45-47,81
+vllm_ascend/distributed/kv_transfer/kv_pool/ascend_store/pool_worker.py
+  s_a92e633ddc2778::t_35dcc0616a8e41 54,322,449,734,764,1560-1561
+  s_a92e633ddc2778::t_d9dc71bc551bbb 111-113
+  s_a92e633ddc2778::t_2e76d047375cd8 1579
+  s_a92e633ddc2778::t_b56b0e457f43e9 321,323,327,1554-1555,1581,1586,1589
+  s_7fd66682befc76::t_99a93720e627d9 53,55
+vllm_ascend/models/glm5next/recoverssm_config.py
+  s_7fd66682befc76::t_1bd703fc9bee81 43-44
+vllm_ascend/distributed/kv_transfer/kv_pool/ascend_store/kv_transfer.py
+  s_a92e633ddc2778::t_35dcc0616a8e41 468,482,825
+  s_a92e633ddc2778::t_b56b0e457f43e9 820,826-829,837-838
+vllm_ascend/distributed/kv_transfer/kv_pool/ascend_store/metadata.py
+  s_a92e633ddc2778::t_b56b0e457f43e9 124
+vllm_ascend/distributed/kv_transfer/kv_pool/ascend_store/backend/layerwise_keys.py
+  s_a92e633ddc2778::t_35dcc0616a8e41 25,29,41,44,46
+  s_a92e633ddc2778::t_b56b0e457f43e9 27,43
+  s_7fd66682befc76::t_c2fb7e62cb83cf 17-24,26,35-40,42
+  s_a92e633ddc2778::t_31be458c1575a4 48
+vllm_ascend/distributed/kv_transfer/kv_pool/ascend_store/mamba_state_sharding.py
+  s_7fd66682befc76::t_99a93720e627d9 1-9,11-12,21
+  s_a92e633ddc2778::t_6c0b4a76a92c08 17
+  s_a92e633ddc2778::t_b56b0e457f43e9 22,28-33
+  s_7fd66682befc76::t_3b4c1205102076 23-27
+  s_a92e633ddc2778::t_d9dc71bc551bbb 13-14
+  s_a92e633ddc2778::t_35dcc0616a8e41 10
+  s_a92e633ddc2778::t_75a2b5e899633c 16
+  s_a92e633ddc2778::t_a0d65edb72122f 15,18-20,34-35
+vllm_ascend/distributed/kv_transfer/kv_pool/ascend_store/layerwise/pool_worker.py
+  s_7fd66682befc76::t_c2fb7e62cb83cf 750-752
+  s_a92e633ddc2778::t_b56b0e457f43e9 706
+  s_a92e633ddc2778::t_35dcc0616a8e41 753
+  s_7fd66682befc76::t_4152b8b5ade005 749
+  s_7fd66682befc76::t_626164646dcc5a 748
+tests/ut/distributed/ascend_store/test_kv_transfer.py
+  s_a92e633ddc2778::t_35dcc0616a8e41 558,573,603,606,614
+  s_7fd66682befc76::t_fdbf489551a089 604-605,607-613,615
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "ae559f4840053627a0b9161e18c4a6bb73f9a7e8",
+  "prompts": {},
+  "sessions": {
+    "s_4eef6af0d3224a": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a19f5c-1e43-7f60-91a6-97b30a3eab64",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "shenxionghao <sxh139726845@163.com>"
+    },
+    "s_7fd66682befc76": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1a074-fa65-7700-bbb0-20bb9b7bcfc8",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": null
+    },
+    "s_a92e633ddc2778": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1afc1-2108-7cc0-81ec-aa137f8666a8",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": null
+    },
+    "s_e52adafe6d0f24": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1ab0a-f24d-7310-96b9-378ec4333d93",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "shenxionghao <sxh139726845@163.com>"
+    }
+  }
+}
