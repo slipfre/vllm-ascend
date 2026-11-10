@@ -1,0 +1,33 @@
+tests/ut/distributed/ascend_store/test_glm53_store.py
+  s_1c666484d8e255::t_9ded40a08aac42 27,156-157,339-342,345-346
+tests/ut/distributed/ascend_store/test_mooncake_pcp.py
+  s_1c666484d8e255::t_fc27e8d20ae4a2 116-121
+tests/ut/distributed/ascend_store/test_pool_scheduler.py
+  s_1c666484d8e255::t_498d08012cbe7a 72-85,99,130
+tests/ut/distributed/ascend_store/test_pool_worker.py
+  s_1c666484d8e255::t_adb98dd9a392ff 222
+vllm_ascend/distributed/kv_transfer/kv_pool/ascend_store/backend/layerwise_keys.py
+  s_1c666484d8e255::t_3414ecabc4f68f 17,19,25-26,28,30
+vllm_ascend/distributed/kv_transfer/kv_pool/ascend_store/layerwise/pool_scheduler.py
+  s_1c666484d8e255::t_cc3d753001c879 318,322
+vllm_ascend/distributed/kv_transfer/kv_pool/ascend_store/layerwise/pool_worker.py
+  s_1c666484d8e255::t_8a2e6dd2afec6e 762
+vllm_ascend/distributed/kv_transfer/kv_pool/ascend_store/pool_worker.py
+  s_1c666484d8e255::t_d0e9bd9697c223 338-339
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "f58b796e41fc9c3d92ace633c8fd85361ecfeb8e",
+  "prompts": {},
+  "sessions": {
+    "s_1c666484d8e255": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1c44b-bb3b-78a3-8545-7aeb0ccfb5fb",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "shenxionghao <sxh139726845@163.com>"
+    }
+  }
+}
