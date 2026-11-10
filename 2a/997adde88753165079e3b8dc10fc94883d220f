@@ -1,0 +1,32 @@
+vllm_ascend/distributed/kv_transfer/kv_pool/ascend_store/pool_worker.py
+  s_1c666484d8e255::t_130d4f267daa3b 223
+vllm_ascend/distributed/kv_transfer/kv_pool/ascend_store/backend/mooncake_backend.py
+  s_1c666484d8e255::t_130d4f267daa3b 339
+tests/ut/models/test_glm5next_recoverssm_config.py
+  s_1c666484d8e255::t_0425fe8b4e0d34 105
+  s_1c666484d8e255::t_130d4f267daa3b 114,118
+tests/ut/distributed/ascend_store/test_metadata.py
+  s_1c666484d8e255::t_130d4f267daa3b 70
+vllm_ascend/distributed/kv_transfer/kv_pool/ascend_store/backend/memcache_backend.py
+  s_1c666484d8e255::t_130d4f267daa3b 161
+vllm_ascend/distributed/kv_transfer/kv_pool/ascend_store/layerwise/pool_scheduler.py
+  s_1c666484d8e255::t_130d4f267daa3b 53
+vllm_ascend/distributed/kv_transfer/kv_pool/ascend_store/metadata.py
+  s_1c666484d8e255::t_130d4f267daa3b 280
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "2a997adde88753165079e3b8dc10fc94883d220f",
+  "prompts": {},
+  "sessions": {
+    "s_1c666484d8e255": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1c44b-bb3b-78a3-8545-7aeb0ccfb5fb",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "shenxionghao <sxh139726845@163.com>"
+    }
+  }
+}
