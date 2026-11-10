@@ -1,0 +1,66 @@
+tests/ut/distributed/ascend_store/test_metadata.py
+  s_1c666484d8e255::t_130d4f267daa3b 70
+vllm_ascend/distributed/kv_transfer/kv_pool/ascend_store/backend/memcache_backend.py
+  s_1c666484d8e255::t_42ba6786f88142 161
+  s_1c666484d8e255::t_de91668a8d86d3 21,158-160,166
+tests/ut/distributed/ascend_store/test_layerwise_keys.py
+  s_1c666484d8e255::t_0f99485183e83c 8,26-27,34,70-86
+  s_1c666484d8e255::t_bb9d5be4cbcf8d 15-16,24,53-55,57-69
+tests/ut/distributed/ascend_store/test_mooncake_pcp.py
+  s_1c666484d8e255::t_bb9d5be4cbcf8d 26,33,35,46-47,49,78,93-94,114,131
+vllm_ascend/distributed/kv_transfer/kv_pool/ascend_store/metadata.py
+  s_1c666484d8e255::t_130d4f267daa3b 280
+  s_1c666484d8e255::t_051316d99cd8bd 124
+tests/ut/distributed/ascend_store/test_pool_worker.py
+  s_1c666484d8e255::t_5b59a28a0a6f3b 196-222
+vllm_ascend/distributed/kv_transfer/kv_pool/ascend_store/ascend_store_connector.py
+  s_1c666484d8e255::t_80cfe90056347a 47,129-135
+tests/ut/distributed/ascend_store/test_glm53_store.py
+  s_1c666484d8e255::t_bb9d5be4cbcf8d 417,424
+  s_1c666484d8e255::t_de91668a8d86d3 321,416
+tests/ut/distributed/ascend_store/test_pool_scheduler.py
+  s_92a6f627edf17b::t_762a550abaa372 230
+vllm_ascend/distributed/kv_transfer/kv_pool/ascend_store/backend/layerwise_keys.py
+  s_1c666484d8e255::t_bb9d5be4cbcf8d 20-21,26-27,31
+  s_1c666484d8e255::t_42ba6786f88142 7,16
+tests/ut/kv_offload/test_pool_worker_pp_layer_count.py
+  s_92a6f627edf17b::t_dac37e94ee7ca0 93,101
+tests/ut/distributed/ascend_store/test_ascend_store_connector.py
+  s_1c666484d8e255::t_ca8b1dc6021774 20,26,28-29,218-249
+  s_1c666484d8e255::t_e7fab91d7269bf 250
+vllm_ascend/distributed/kv_transfer/kv_pool/ascend_store/backend/mooncake_backend.py
+  s_1c666484d8e255::t_bb9d5be4cbcf8d 30,370,375
+  s_1c666484d8e255::t_42ba6786f88142 339
+vllm_ascend/distributed/kv_transfer/kv_pool/ascend_store/pool_worker.py
+  s_1c666484d8e255::t_051316d99cd8bd 1047
+  s_1c666484d8e255::t_130d4f267daa3b 223
+vllm_ascend/distributed/kv_transfer/kv_pool/ascend_store/layerwise/pool_scheduler.py
+  s_1c666484d8e255::t_bb9d5be4cbcf8d 310-311
+  s_1c666484d8e255::t_130d4f267daa3b 53
+vllm_ascend/distributed/kv_transfer/kv_pool/ascend_store/layerwise/pool_worker.py
+  s_1c666484d8e255::t_da576249f4b91e 718-729
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "fa8c910e27650dad85921b96cfa6df24fba336ca",
+  "prompts": {},
+  "sessions": {
+    "s_1c666484d8e255": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1c44b-bb3b-78a3-8545-7aeb0ccfb5fb",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": null
+    },
+    "s_92a6f627edf17b": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1c586-cef0-7aa3-b2ff-e88590b1bfa8",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": null
+    }
+  }
+}
