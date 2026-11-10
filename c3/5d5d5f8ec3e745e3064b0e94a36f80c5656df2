@@ -1,0 +1,22 @@
+vllm_ascend/distributed/kv_transfer/kv_pool/ascend_store/ascend_store_connector.py
+  s_1c666484d8e255::t_80cfe90056347a 47,129-135
+tests/ut/distributed/ascend_store/test_ascend_store_connector.py
+  s_1c666484d8e255::t_ca8b1dc6021774 20,26,28-29,218-249
+  s_1c666484d8e255::t_e7fab91d7269bf 250
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "c35d5d5f8ec3e745e3064b0e94a36f80c5656df2",
+  "prompts": {},
+  "sessions": {
+    "s_1c666484d8e255": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1c44b-bb3b-78a3-8545-7aeb0ccfb5fb",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "shenxionghao <sxh139726845@163.com>"
+    }
+  }
+}
