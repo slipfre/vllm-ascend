@@ -1,0 +1,36 @@
+vllm_ascend/distributed/kv_transfer/kv_pool/ascend_store/layerwise/pool_worker.py
+  s_1c666484d8e255::t_bb9d5be4cbcf8d 719
+  s_1c666484d8e255::t_de91668a8d86d3 718
+vllm_ascend/distributed/kv_transfer/kv_pool/ascend_store/backend/memcache_backend.py
+  s_1c666484d8e255::t_de91668a8d86d3 21,158-163,168
+tests/ut/distributed/ascend_store/test_mooncake_pcp.py
+  s_1c666484d8e255::t_bb9d5be4cbcf8d 26,33,35,46-47,49,78,93-94,114,131
+tests/ut/distributed/ascend_store/test_glm53_store.py
+  s_1c666484d8e255::t_de91668a8d86d3 340,453
+  s_1c666484d8e255::t_bb9d5be4cbcf8d 454,461
+vllm_ascend/distributed/kv_transfer/kv_pool/ascend_store/backend/mooncake_backend.py
+  s_1c666484d8e255::t_bb9d5be4cbcf8d 30,339-341,372,377
+vllm_ascend/distributed/kv_transfer/kv_pool/ascend_store/layerwise/pool_scheduler.py
+  s_1c666484d8e255::t_bb9d5be4cbcf8d 310-311
+vllm_ascend/distributed/kv_transfer/kv_pool/ascend_store/backend/layerwise_keys.py
+  s_1c666484d8e255::t_bb9d5be4cbcf8d 16,20-21,26-27,31
+tests/ut/distributed/ascend_store/test_layerwise_keys.py
+  s_1c666484d8e255::t_bb9d5be4cbcf8d 15-16,24,53-55,57-69
+  s_1c666484d8e255::t_0f99485183e83c 8,26-27,34,70-86
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "61cb3a7877923f27315a6bda40c50aa256677548",
+  "prompts": {},
+  "sessions": {
+    "s_1c666484d8e255": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1c44b-bb3b-78a3-8545-7aeb0ccfb5fb",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "shenxionghao <sxh139726845@163.com>"
+    }
+  }
+}
