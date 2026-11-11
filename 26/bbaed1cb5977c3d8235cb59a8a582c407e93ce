@@ -1,0 +1,125 @@
+vllm_ascend/distributed/kv_transfer/kv_pool/ascend_store/backend/layerwise_keys.py
+  s_a92e633ddc2778::t_db5a836f9f6354 48
+  s_7fd66682befc76::t_c2fb7e62cb83cf 17-23,25,34-38,40
+  s_a92e633ddc2778::t_4bc35a9b9dbf6c 41-45
+  s_a92e633ddc2778::t_ffa4c2b87cb33b 24,26,28,39,46
+  s_a92e633ddc2778::t_31be458c1575a4 50
+tests/ut/distributed/ascend_store/test_pool_scheduler.py
+  s_a92e633ddc2778::t_1069c78faf6cdc 75,101,129,287
+  s_a92e633ddc2778::t_db5a836f9f6354 85,116
+docs/source/user_guide/feature_guide/speculative_decoding.md
+  s_a92e633ddc2778::t_474188150aed8d 903,915-922
+  s_a92e633ddc2778::t_9f234f3905d02b 923
+tests/ut/distributed/ascend_store/test_mooncake_layerwise.py
+  s_a92e633ddc2778::t_1069c78faf6cdc 199
+vllm_ascend/models/glm5next/recoverssm_config.py
+  s_7fd66682befc76::t_1bd703fc9bee81 43-44
+tests/ut/models/test_glm5next_recoverssm_config.py
+  s_7fd66682befc76::t_cb3159bf51c3f8 45-47,81
+  s_7fd66682befc76::t_b6b548a7f1e2f1 75,109-110,124-133
+tests/ut/distributed/ascend_store/test_pool_worker.py
+  s_a92e633ddc2778::t_8d39c7f070f5f2 223
+  s_a92e633ddc2778::t_5093e2fabbb2e4 196-220,222,224
+  s_a92e633ddc2778::t_1069c78faf6cdc 221
+vllm_ascend/distributed/kv_transfer/kv_pool/ascend_store/layerwise/pool_worker.py
+  s_7fd66682befc76::t_c2fb7e62cb83cf 764-766
+  s_a92e633ddc2778::t_ffa4c2b87cb33b 767
+  s_7fd66682befc76::t_626164646dcc5a 762
+  s_7fd66682befc76::t_4152b8b5ade005 763
+  s_a92e633ddc2778::t_403d474815313e 591-592
+tests/ut/distributed/ascend_store/test_mooncake_hybrid.py
+  s_7fd66682befc76::t_160b4c59bf2c46 52-54
+  s_a92e633ddc2778::t_1069c78faf6cdc 453
+vllm_ascend/distributed/kv_transfer/kv_pool/ascend_store/metadata.py
+  s_a92e633ddc2778::t_8479fc59725d0f 290-297
+  s_a92e633ddc2778::t_7f763d9abf1b16 299-300
+  s_a92e633ddc2778::t_474188150aed8d 124
+  s_a92e633ddc2778::t_bd9fdc79346b34 15,283-286,298
+  s_a92e633ddc2778::t_5093e2fabbb2e4 281-282
+  s_a92e633ddc2778::t_1069c78faf6cdc 280
+  s_a92e633ddc2778::t_2274bb98060605 287-289
+vllm_ascend/distributed/kv_transfer/kv_pool/ascend_store/kv_transfer.py
+  s_a92e633ddc2778::t_b4248052d7f065 827,829-830,838-839
+  s_a92e633ddc2778::t_b56b0e457f43e9 828
+  s_a92e633ddc2778::t_9e0350eae341f7 826
+  s_a92e633ddc2778::t_1069c78faf6cdc 468,482,825
+release_notes/fragments/20835.yaml
+  s_a92e633ddc2778::t_474188150aed8d 1-6
+tests/ut/distributed/ascend_store/test_mooncake_pcp.py
+  s_a92e633ddc2778::t_9d58131fbf3597 71-73,76,82,113-114,124
+vllm_ascend/distributed/kv_transfer/kv_pool/ascend_store/layerwise/pool_scheduler.py
+  s_a92e633ddc2778::t_db5a836f9f6354 329
+  s_a92e633ddc2778::t_b56b0e457f43e9 321,323
+  s_a92e633ddc2778::t_b4248052d7f065 320,322,324,328
+  s_7fd66682befc76::t_c2fb7e62cb83cf 325
+  s_a92e633ddc2778::t_1069c78faf6cdc 26,53
+  s_a92e633ddc2778::t_ffa4c2b87cb33b 318-319
+  s_7fd66682befc76::t_dd639271e5b757 326-327
+vllm_ascend/distributed/kv_transfer/kv_pool/ascend_store/pool_worker.py
+  s_a92e633ddc2778::t_1069c78faf6cdc 223,337
+  s_a92e633ddc2778::t_afe1a321d056f9 338
+  s_a92e633ddc2778::t_0b8eb1823f3f4e 58
+  s_a92e633ddc2778::t_403d474815313e 1359
+  s_a92e633ddc2778::t_4bb3d44d1821d0 1027-1028,1046
+tests/ut/distributed/ascend_store/test_metadata.py
+  s_a92e633ddc2778::t_04d2adbd0684cb 24-28,45,54-71
+tests/ut/distributed/ascend_store/test_glm53_store.py
+  s_4eef6af0d3224a::t_b4c4d4e1f1ce83 49,200
+  s_e52adafe6d0f24::t_3f3ccf537698f6 343
+  s_7fd66682befc76::t_e87669f010c51b 338-341,360-361,363
+  s_a92e633ddc2778::t_a0d65edb72122f 347,355-356,358-359,362,442,450,456
+  s_7fd66682befc76::t_f442d5d90eb84c 10,22,203,337,344-346,364-373,376-377,413-414,421-423,425,428-429,433,445,451,471
+  s_7fd66682befc76::t_4cbf97953bb2a3 199,221,228-229
+  s_a92e633ddc2778::t_bbe65c9397d7a5 230,438-439,443,457-460
+  s_7fd66682befc76::t_05e14fbdc66af0 434,436-437
+  s_7fd66682befc76::t_cd9d9d86644211 475
+  s_a92e633ddc2778::t_5093e2fabbb2e4 348-354,357
+  s_7fd66682befc76::t_35dff6ee61f17f 435,479-484
+  s_a92e633ddc2778::t_8d39c7f070f5f2 271
+  s_7fd66682befc76::t_3b4c1205102076 334-336,342,431-432
+  s_a92e633ddc2778::t_b56b0e457f43e9 219-220,250
+tests/ut/distributed/ascend_store/test_kv_transfer.py
+  s_a92e633ddc2778::t_35dcc0616a8e41 603,614
+  s_7fd66682befc76::t_fdbf489551a089 604-605,607-613,615
+  s_a92e633ddc2778::t_1069c78faf6cdc 558,573,606
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "26bbaed1cb5977c3d8235cb59a8a582c407e93ce",
+  "prompts": {},
+  "sessions": {
+    "s_4eef6af0d3224a": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a19f5c-1e43-7f60-91a6-97b30a3eab64",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "shenxionghao <sxh139726845@163.com>"
+    },
+    "s_7fd66682befc76": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1a074-fa65-7700-bbb0-20bb9b7bcfc8",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": null
+    },
+    "s_a92e633ddc2778": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1afc1-2108-7cc0-81ec-aa137f8666a8",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": null
+    },
+    "s_e52adafe6d0f24": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1ab0a-f24d-7310-96b9-378ec4333d93",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "shenxionghao <sxh139726845@163.com>"
+    }
+  }
+}
