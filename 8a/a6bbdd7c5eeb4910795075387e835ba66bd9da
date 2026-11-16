@@ -1,0 +1,22 @@
+vllm_ascend/distributed/kv_transfer/utils/slo_search/README.md
+  s_2ee72adb2357ae::t_585f411d3839db 238
+vllm_ascend/distributed/kv_transfer/utils/slo_search/slo_search.py
+  s_2ee72adb2357ae::t_585f411d3839db 402,671-678
+  s_2ee72adb2357ae::t_71729c083ffbe4 23,401
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "8aa6bbdd7c5eeb4910795075387e835ba66bd9da",
+  "prompts": {},
+  "sessions": {
+    "s_2ee72adb2357ae": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1e248-d9cb-7480-a8b0-7683a296765f",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "shenxionghao <sxh139726845@163.com>"
+    }
+  }
+}
