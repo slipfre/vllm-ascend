@@ -1,0 +1,19 @@
+vllm_ascend/distributed/kv_transfer/utils/slo_search/slo_search.py
+  s_2ee72adb2357ae::t_dd1a3f492101f8 12-13,56,134,168-169
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "cc9928bbd81d1a3fc2e71c4104c795b8e9db5bae",
+  "prompts": {},
+  "sessions": {
+    "s_2ee72adb2357ae": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1e248-d9cb-7480-a8b0-7683a296765f",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "shenxionghao <sxh139726845@163.com>"
+    }
+  }
+}
