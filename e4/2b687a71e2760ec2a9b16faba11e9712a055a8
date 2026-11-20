@@ -1,0 +1,19 @@
+vllm_ascend/distributed/kv_transfer/kv_pool/ascend_store/layerwise/pool_worker.py
+  s_a2f2d0b5cab8fc::t_0c81ecc92244e0 404-413,416-421
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "e42b687a71e2760ec2a9b16faba11e9712a055a8",
+  "prompts": {},
+  "sessions": {
+    "s_a2f2d0b5cab8fc": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1e8bf-6a34-7601-8720-880fc6758057",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": null
+    }
+  }
+}
