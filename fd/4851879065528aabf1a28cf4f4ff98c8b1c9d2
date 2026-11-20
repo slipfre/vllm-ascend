@@ -1,0 +1,31 @@
+release_notes/fragments/20856.yaml
+  s_c33c34b5b07b83::t_c5c2e076b59232 6
+tests/ut/kv_offload/test_pool_worker_pp_object_bounds.py
+  s_c33c34b5b07b83::t_93ba293f4204b8 5-6,74-75,78,85,87-88,90,95,101,136-137,141,146,153,156,167-168,188-198,200-202,206-220,223-229
+  s_c33c34b5b07b83::t_0859fb05ccd86c 199
+  s_c33c34b5b07b83::t_86a2a520603301 203-205
+  s_c33c34b5b07b83::t_c5c2e076b59232 92
+  s_c33c34b5b07b83::t_9090958e8f47f9 221-222
+vllm_ascend/distributed/kv_transfer/kv_pool/ascend_store/layerwise/pool_worker.py
+  s_c33c34b5b07b83::t_c5c2e076b59232 390,404-406,408-416
+tests/ut/distributed/ascend_store/test_pool_worker.py
+  s_c33c34b5b07b83::t_c5c2e076b59232 936
+vllm_ascend/distributed/kv_transfer/kv_pool/ascend_store/pool_worker.py
+  s_c33c34b5b07b83::t_c5c2e076b59232 567,571
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "fd4851879065528aabf1a28cf4f4ff98c8b1c9d2",
+  "prompts": {},
+  "sessions": {
+    "s_c33c34b5b07b83": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1e4c0-2d01-74b1-af4f-60fd58746003",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": null
+    }
+  }
+}
