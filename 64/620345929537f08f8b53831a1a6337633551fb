@@ -1,0 +1,19 @@
+examples/kvpool_slo_search/README.md
+  s_2225ab4c076d23::t_32276645937479 13-15
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "64620345929537f08f8b53831a1a6337633551fb",
+  "prompts": {},
+  "sessions": {
+    "s_2225ab4c076d23": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a20620-b787-77a0-8400-0e5100962115",
+        "model": "gpt-6.2-sol"
+      },
+      "human_author": "shenxionghao <sxh139726845@163.com>"
+    }
+  }
+}
